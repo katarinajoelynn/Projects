@@ -1,7 +1,7 @@
 const Discord = require('discord.js'); // calls the discord.js library 
 const Bot = new Discord.Client(); 
 const TOKIN = ''; // Make your own bot at discordapp.com/developer and copy the tokin ID. Paste it here. 
-const name = ''; 
+const name = ''; // pick the name you want 
 
 Bot.on('ready', function() {
     console.log('ready');

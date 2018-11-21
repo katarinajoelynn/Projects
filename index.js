@@ -1,6 +1,6 @@
 const Discord = require('discord.js'); // calls the discord.js library 
 const Bot = new Discord.Client(); 
-const TOKIN = ''; // calls the discord bot tokin. Make your own bot at discordapp.com/developer 
+const TOKIN = ''; // calls the discord bot tokin. Make your own bot at discordapp.com/developer and copy the tokin ID. Paste it here. 
 const name = ''; 
 
 Bot.on('ready', function() {

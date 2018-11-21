@@ -1,14 +1,14 @@
-const Discord = require('discord.js'); 
+const Discord = require('discord.js'); // calls the discord.js library 
 const Bot = new Discord.Client(); 
-const TOKIN = 'NTE0Nzc1OTI5NDE1Nzk0NzA5.DtbhDg.17eT46gouP4kkmYY-zGLWbPSlsk'; 
+const TOKIN = ''; // calls the discord bot tokin. Make your own bot at discordapp.com/developer 
+const name = ''; 
 
 Bot.on('ready', function() {
     console.log('ready');
-});
+}); // just a message to let you know the bot is responsive 
 
 Bot.on('guildMemberAdd', function(member){
+    member.setNickname(name)
+}); // everytime a new member joins, their nickname is changed to the nickname you want 
 
-    member.setNickname('enter name here')
-});
-
-Bot.login(TOKIN);
+Bot.login(TOKIN); // calls the tokin

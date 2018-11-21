@@ -2,6 +2,7 @@ const Discord = require('discord.js'); // calls the discord.js library
 const Bot = new Discord.Client(); 
 const TOKEN = ''; // Make your own bot at discordapp.com/developer and copy the token ID. Paste it here. 
 const name = ''; // pick the name you want 
+/*'' + member.user.username + '.'*/
 
 Bot.on('ready', function() {
     console.log('ready');
